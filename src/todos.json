@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "deadline": "1900-01-01",
+      "completed": true,
+      "archived": true
+    },
+    {
+      "id": 2,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": true,
+      "archived": true
+    },
+    {
+      "id": 4,
+      "title": "Hello Szczecin",
+      "deadline": "2000-01-31",
+      "completed": true,
+      "archived": true
+    }
+  ]
+}

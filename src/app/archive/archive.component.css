@@ -1,0 +1,33 @@
+.container {
+  margin: 25px 50px;
+}
+
+.new-task {
+  margin-bottom: 25px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.deadline {
+  background-color: orange;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 150px;
+}
+
+.task {
+  margin-bottom: 10px;
+}
+
+.btn-archive {
+  padding: 5px 10px;
+}

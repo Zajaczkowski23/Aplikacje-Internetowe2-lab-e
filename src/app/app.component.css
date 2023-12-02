@@ -1,0 +1,25 @@
+header {
+  background-color: blue;
+  color: #fff;
+  font-size: 26px;
+  padding: 10px 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin-right: auto;
+}
+
+header a {
+  margin-right: 10px;
+  color: #fff;
+}
+
+footer {
+  background-color: green;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 15px;
+}
