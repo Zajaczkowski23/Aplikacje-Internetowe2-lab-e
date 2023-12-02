@@ -1,8 +1,24 @@
-<header>
+<mat-toolbar>
   <h1>Backend Based Task Manager</h1>
-  <a routerLink="/tasks" routerLinkActive="active">Tasks</a>
-  <a routerLink="/archive" routerLinkActive="active">Archive</a>
-</header>
+  <mat-chip-listbox>
+    <a
+      mat-chip-option
+      routerLink="/tasks"
+      routerLinkActive="active"
+      #rlat="routerLinkActive"
+      [selected]="rlat.isActive"
+      >Tasks</a
+    >
+    <a
+      mat-chip-option
+      routerLink="/archive"
+      routerLinkActive="active"
+      #rlat="routerLinkActive"
+      [selected]="rlat.isActive"
+      >Archive</a
+    >
+  </mat-chip-listbox>
+</mat-toolbar>
 
 <div class="router-outlet">
   <router-outlet></router-outlet>

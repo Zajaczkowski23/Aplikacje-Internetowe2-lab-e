@@ -6,13 +6,6 @@
   margin-bottom: 25px;
 }
 
-.task {
-  display: flex;
-  align-items: center;
-  padding: 10px 15px;
-  border: 1px solid black;
-}
-
 .title {
   margin-right: auto;
 }
